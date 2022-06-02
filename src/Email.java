@@ -11,9 +11,9 @@ public class Email {
 
     public static void main(String[] args) throws MessagingException {
 
-        String userFrom = "tanyushazaja@mail.ru";
-        String userPassword = "2m74yin0hLk5fJ369btP";
-        String userTo =  "borzenkova.tatiana@gmail.com";
+        String userFrom = "userFrom@mail.ru";
+        String userPassword = "********************";
+        String userTo =  "buserTo@gmail.com";
 
         Properties props = new Properties();
         props.put("mail.transport.protocol", "smtps");
